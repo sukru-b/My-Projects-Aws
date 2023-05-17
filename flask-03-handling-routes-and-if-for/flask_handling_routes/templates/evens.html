@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>List Evens</title>
+  </head>
+  <body style="background-color: tan">
+    <h2>Showing Even Number from 1 to 10</h2>
+    <ul>
+      {% for x in range(1,11) %} {% if x % 2 == 0 %}
+      <li style="list-style: square"><h3>Number {{ x }} is even</h3></li>
+      {% endif %} {% endfor %}
+    </ul>
+  </body>
+</html>
