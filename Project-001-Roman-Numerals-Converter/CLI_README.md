@@ -96,7 +96,7 @@ aws ec2 run-instances \
     --count 1 \
     --instance-type t2.micro \
     --key-name first-key-pair \
-    --security-group-ids sg-039b095c468d28dd2 \
+    --security-group-ids sg-0b42382509ceed30c \
     --tag-specifications 'ResourceType=instance,Tags=[{Key=Name,Value=roman_numbers}]' \
     --user-data file:///home/ec2-user/userdata.sh
 ```
